@@ -2,12 +2,16 @@
     --main-color: #1566C0;
 }
 
+.top-container{
+    height: 300px;
+}
+
 .maincontainer{
     background-image: url(./media/header.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: 0px -150px;
-   height: 700px;
+   height: 500px;
 }
 
 .main-title{
@@ -29,4 +33,20 @@
 
 .btn-more:hover{
     color: var(--main-color);
+}
+
+.little-title{
+    color: var(--main-color);
+    font-family: 'Righteous', 'cursive';
+    font-size: 25px;
+    height: 200px;
+    padding-top: 300px;
+}
+
+.white-wave-section{
+    margin-top: 100px;
+    background-image: url(./media/wave2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
 }
