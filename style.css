@@ -1,0 +1,32 @@
+:root{
+    --main-color: #1566C0;
+}
+
+.maincontainer{
+    background-image: url(./media/header.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0px -150px;
+   height: 700px;
+}
+
+.main-title{
+    font-family: 'Righteous', 'cursive';
+    font-size: 45px;
+}
+
+.subtitle{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-more{
+    font-weight: 600;
+    width: 100px;
+    border: none;
+    font-size: 14px;
+}
+
+.btn-more:hover{
+    color: var(--main-color);
+}
