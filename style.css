@@ -2,6 +2,8 @@
     --main-color: #1566C0;
 }
 
+/* HEADER */
+
 .top-container{
     height: 300px;
 }
@@ -16,12 +18,12 @@
 
 .main-title{
     font-family: 'Righteous', 'cursive';
-    /* font-size: 45px; */
 }
 
 .subtitle{
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .btn-more{
@@ -38,17 +40,17 @@
 .little-title{
     color: var(--main-color);
     font-family: 'Righteous', 'cursive';
-    font-size: 25px;
-    padding-top: 120px;
+    font-size: 20px;
+    padding-top: 60px;
 }
 
 .white-wave-section{
-    margin-top: 30px;
+    margin-top: 28px;
     background-image: url(./media/wave2.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-    top: 2px;
+    top: 1px;
 }
 
 .gray-wave-bg{
@@ -69,6 +71,13 @@
     }
 }
 
+@media screen and (min-width: 300px) {
+    .little-title{
+        font-size: 25px;
+        padding-top: 80px;
+    }
+}
+
 @media screen and (min-width: 576px) {
     .header-element{
         padding-top: 50px;
@@ -82,5 +91,30 @@
 @media screen and (min-width: 768px) {
     .maincontainer{
         height: 580px;
+    }
+    .little-title{
+        font-size: 30px;
+        padding-top: 120px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .little-title{
+        font-size: 30px;
+        padding-top: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .little-title{
+        font-size: 35px;
+        padding-top: 170px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .little-title{
+        font-size: 35px;
+        padding-top: 190px;
     }
 }
