@@ -8,15 +8,15 @@
 
 .maincontainer{
     background-image: url(./media/header.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: 0px -150px;
-   height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -150px;
+    height: 550px;
 }
 
 .main-title{
     font-family: 'Righteous', 'cursive';
-    font-size: 45px;
+    /* font-size: 45px; */
 }
 
 .subtitle{
@@ -39,14 +39,48 @@
     color: var(--main-color);
     font-family: 'Righteous', 'cursive';
     font-size: 25px;
-    height: 200px;
-    /* padding-top: 300px; */
+    padding-top: 120px;
 }
 
 .white-wave-section{
     margin-top: 30px;
     background-image: url(./media/wave2.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    position: relative;
+    top: 2px;
+}
+
+.gray-wave-bg{
+    margin-top: 50px;
+    background-image: url(./media/wave1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     background-position: 0px 10px;
+}
+
+.header-element{
+    padding-top: 0px;
+}
+
+@media screen and (min-width: 220px) {
+    .maincontainer{
+        height: 520px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .header-element{
+        padding-top: 50px;
+    }
+
+    .maincontainer{
+        height: 570px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .maincontainer{
+        height: 580px;
+    }
 }
