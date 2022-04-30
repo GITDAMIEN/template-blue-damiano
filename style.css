@@ -11,7 +11,7 @@
    background-repeat: no-repeat;
    background-size: cover;
    background-position: 0px -150px;
-   height: 500px;
+   height: 550px;
 }
 
 .main-title{
@@ -40,13 +40,13 @@
     font-family: 'Righteous', 'cursive';
     font-size: 25px;
     height: 200px;
-    padding-top: 300px;
+    /* padding-top: 300px; */
 }
 
 .white-wave-section{
-    margin-top: 100px;
+    margin-top: 30px;
     background-image: url(./media/wave2.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -50px;
+    background-position: 0px 10px;
 }
