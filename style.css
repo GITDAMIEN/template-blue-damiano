@@ -129,8 +129,40 @@
 
 .first-time-element{
     border-right-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-color: var(--main-color);
+}
+
+.second-time-element{
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: var(--main-color);
+}
+
+.third-time-element{
+    border-right-style: solid;
+    border-width: 3px;
+    border-color: var(--main-color);
+}
+
+.fourth-time-element{
+    border-left-style: solid;
+    border-top-style: solid;
+    border-width: 3px;
+    border-color: var(--main-color);
+}
+
+.timeline-button-container{
+    height: 40px;
+}
+
+.timeline-button{
+    color: white;
+    background-color: var(--main-color);
+    border-style: none;
+    width: 130px;
 }
 
 .first-time-element::before{
@@ -198,6 +230,36 @@
         font-size: 30px;
         padding-top: 120px;
     }
+
+    .first-time-element{
+        padding-left: 30px;
+        width: 50%;
+    }
+
+    .third-time-element{
+        padding-left: 30px;
+        width: 50%;
+    }
+
+    .second-time-element{
+        border-left-style: solid;
+        border-top-style: none;
+        border-bottom-style: none;
+        border-width: 3px;
+        border-color: var(--main-color);
+        padding-right: 30px;
+        width: 50%;
+    }
+    
+    .fourth-time-element{
+        border-left-style: solid;
+        border-top-style: none;
+        border-width: 3px;
+        border-color: var(--main-color);
+        padding-right: 30px;
+        width: 50%;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
