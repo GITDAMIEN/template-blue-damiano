@@ -130,14 +130,7 @@ hr.card-line{
 
 /* SEZIONE B */
 
-.boxsha{
-    box-shadow: 4px 4px 10px #a8a8a8e8;
-    border-radius: 20px;
-    width: 18rem;
-    margin-left: 40px;
-}
-    
-.verylittle{
+.very-little{
     color: var(--main-color);
     font-family: 'Righteous', 'cursive';
     font-size: 18px;
@@ -146,8 +139,50 @@ hr.card-line{
     margin-bottom: 0px;
 }
 
-.ggggg{
-    margin-top: 500px;
+h5.very-little{
+    position: absolute;
+    top: 10px;
+}
+
+.subtitle2{
+    font-size: 12px!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 35px;
+    right: 12px;
+    left: 12px;
+}
+
+.box-shad{
+    box-shadow: 2px 2px 8px #b5b3b3af;
+    width: 320px;
+    height: 120px!important;
+    border-radius: 12px;
+    border-style: none;
+}
+
+.icons-row{
+    justify-content: space-evenly;
+}
+
+.main-icons-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-around;
+    max-width: 400px;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px #b5b3b3af;
+    width: 48px;
+    height: 48px!important;
+    border-radius: 12px;
+    border-style: none;
 }
 
 /* TIMELINE */
