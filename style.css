@@ -66,80 +66,12 @@
     padding-top: 0px;
 }
 
-/* SEZIONE A */
-/* 
-.textcent{
-    width: 33%;
-    padding: 0;
-  
-  }
-  .text_cent{
-    font-size: 48px ;
-    color: #1566C0;
-  }
-  font_cent2{
-    color: #323232;
-  
-  }
-  hr.barra {
-    width:90%; 
-    height:10px; 
-    color: rgba(255, 193, 6, 1);
-    padding-left: 5px;
-    margin-bottom: 80px;
-  
-    
-  }
-  .card{
-    width: 380px;
-    height: 410px; 
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 20px;
-    
-  }
-  .textcard{
-    padding-top: 70px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-  
-  }
-  .texts{
-    padding-left: 25px;
-  }
-  #card1{
-    background-image: url("./media/1.png");
-  
-  }
-  #card2{
-  
-    background-image: url("./media/2.png");
-  
-  }
-  #card3{
-  
-   background-image: url("./media/3.png");
-  }
-  #card4{
-    background-image: url("./media/4.png");
-  }
-  
-  .sfumatura{
-    color: white;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, .9) 20% , rgba(0, 0, 0, 0.4) 40% , rgba(0, 0, 0, 0.6) 60% , rgba(0, 0, 0, 0.7) 70% , rgba(0, 0, 0, 0.9) 90%);
-  } */
+/* CARDS */
 
 .card{
     height: 150px;
     width: 150px;
+    position: relative;
 }
 
 .card-elements{
@@ -173,6 +105,26 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.testo-card{
+    color: white;
+    font-family: 'Righteous', 'cursive';
+}
+
+hr.card-line{
+    color: rgb(255, 208, 0);
+    height: 2px;
+    width: 90%;
+    position: absolute;
+    bottom: 90px;
+    opacity: 100;
+}
+
+.testino{
+    font-size: 8px;
+    position: absolute;
+    bottom: 10px;
 }
 
 
