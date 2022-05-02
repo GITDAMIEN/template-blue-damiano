@@ -171,7 +171,11 @@
 }
 
 .first-time-element::before{
-    content: "\f559";
+    content: "";
+    background: white;
+    box-shadow: var(--main-color);
+    height: 30px;
+    width: 30px;
 }
 
 /* FOOTER */
@@ -240,12 +244,7 @@
         padding-left: 30px;
         width: 50%;
     }
-
-    .third-time-element{
-        padding-left: 30px;
-        width: 50%;
-    }
-
+    
     .second-time-element{
         border-left-style: solid;
         border-top-style: none;
@@ -253,6 +252,11 @@
         border-width: 3px;
         border-color: var(--main-color);
         padding-right: 30px;
+        width: 50.3%;
+    }
+
+    .third-time-element{
+        padding-left: 30px;
         width: 50%;
     }
     
@@ -262,7 +266,7 @@
         border-width: 3px;
         border-color: var(--main-color);
         padding-right: 30px;
-        width: 50%;
+        width: 50.3%;
     }
 
     .row-end-elements{
@@ -278,6 +282,15 @@
     }
     .maincontainer{
         height: 600px;
+    }
+    
+    .second-time-element{
+        width: 50.2%;
+    }
+
+    
+    .fourth-time-element{
+        width: 50.2%;
     }
 }
 
