@@ -123,7 +123,9 @@ hr.card-line{
 .testino{
     font-size: 8px;
     position: absolute;
-    bottom: 10px;
+    bottom: 8px;
+    padding-right: 8px;
+    margin-bottom: 12px;
 }
 
 
@@ -260,14 +262,27 @@ h5.very-little{
     border-style: none;
     width: 130px;
 }
-
-.first-time-element::before{
-    content: "";
-    background: white;
-    box-shadow: var(--main-color);
-    height: 30px;
-    width: 30px;
+.row-start-elements, .row-end-elements{
+    position: relative;
 }
+
+.even-time-elements:before {
+    box-shadow: 0 0 0 8px white, 0 0 0 10px var(--main-color);
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    right: 99.9%;
+}
+
+.odd-time-elements:before {
+    box-shadow: 0 0 0 8px white, 0 0 0 10px var(--main-color);
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    right: 0.1%;
+}
+
+
 
 /* FOOTER */
 
@@ -291,7 +306,7 @@ h5.very-little{
    font-weight: 500;
 }
 
-.subtitle2{
+.subtitle3{
     color: white;
     font-size: 8px;
 }
@@ -381,6 +396,13 @@ h5.very-little{
         flex-direction: row-reverse;
     }
     
+    .even-time-elements:before {
+        right: 50.1%;
+    }
+
+    .odd-time-elements:before {
+        right: 50.1%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -417,5 +439,14 @@ h5.very-little{
     .little-title{
         font-size: 35px;
         padding-top: 190px;
+    }
+    
+    .second-time-element{
+        width: 50.15%;
+    }
+
+    
+    .fourth-time-element{
+        width: 50.15%;
     }
 }
