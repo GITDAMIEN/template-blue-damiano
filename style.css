@@ -476,6 +476,19 @@ h5.very-little{
     right: 99.9%;
 }
 
+/*  SOLUZIONE DI MARCO (ma sballa la posizione)
+
+.even-time-elements:before {
+    box-shadow: 0 0 0 4px white, 0 0 0 6px var(--main-color);
+    background: white;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    height: 9px;
+    width: 9px;
+    right: 0.1%;
+} */
+
 .odd-time-elements:before {
     box-shadow: 0 0 0 8px white, 0 0 0 10px var(--main-color);
     border-radius: 50%;
@@ -500,6 +513,7 @@ h5.very-little{
 .footer-elements{
     position: absolute;    
     bottom: 10px;
+    width: 100%;
 }
 
 .verylittle2{
