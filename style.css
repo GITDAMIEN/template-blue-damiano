@@ -477,7 +477,8 @@ h5.very-little{
 }
 
 /*  SOLUZIONE DI MARCO (ma sballa la posizione)
-
+*/
+/* 
 .even-time-elements:before {
     box-shadow: 0 0 0 4px white, 0 0 0 6px var(--main-color);
     background: white;
@@ -486,7 +487,6 @@ h5.very-little{
     position: absolute;
     height: 9px;
     width: 9px;
-    right: 0.1%;
 } */
 
 .odd-time-elements:before {
